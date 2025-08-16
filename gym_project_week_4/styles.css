@@ -1,0 +1,152 @@
+
+title {color: #A5BE00;}
+
+body { background-color: #23272C;
+    font-size: xx-large; 
+    font-family:  Helvetica, bold;
+    padding-top: 50px;
+}
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+h1{ text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #A5BE00;
+}
+
+p{
+    font-family:  Helvetica, bold;
+    
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #E0D8De;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.packages{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.package{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.package p{
+    margin: 5px;
+}
+
+img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+#homepageimage{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+nav{
+    display: flex;
+    list-style: none;
+    background-color: #A5BE00; 
+}
+
+nav a{
+    display: flex;
+    color:#23272C;
+    font-size:large;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover{
+    background-color: #FFFFFF;
+}
+
+
+#navbar{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+#navbar li:first-child{
+
+    margin-right: auto;
+}
+
+nav li{
+    margin-right:60px
+}
+
+#socialbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;    
+    background-color: #81DFFD;
+    margin-top: auto;
+ 
+}
+h3{color: #A5BE00;}
+
+
+q{color: #E0D8De;}
+table{
+    text-align: center;
+    color :#E0D8De;
+}
+
+
+table th{
+    color: #A5BE00
+}
+
+form{font-family:Helvetica, bold;
+
+
+    
+
+    
+    
+  
+    color: #E0D8De;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;}
+
+#description{
+    display: flex;
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+h3, q{
+    margin-left: 200px;
+    margin-right: 200px;
+}
